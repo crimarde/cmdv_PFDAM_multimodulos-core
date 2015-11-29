@@ -13,7 +13,7 @@ import es.enbinario.negocio.EmployeeDTO;
 public class EmployeeTransformerHelper implements EmployeeTransformerHelp {
 
 	/**
-	 * Transforma una lista de dto's en una lista de entidades
+	 * Transforma una lista de dto's en una lista de entidades.
 	 */
 	public List<Employee> dtoToEntityList(List<EmployeeDTO> dtoList){
 		List<Employee> employeeList = new ArrayList<>();
