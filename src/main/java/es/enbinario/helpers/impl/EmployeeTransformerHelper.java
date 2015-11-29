@@ -12,6 +12,9 @@ import es.enbinario.negocio.EmployeeDTO;
 @Component
 public class EmployeeTransformerHelper implements EmployeeTransformerHelp {
 
+	/**
+	 * comentario
+	 */
 	public List<Employee> dtoToEntityList(List<EmployeeDTO> dtoList){
 		List<Employee> employeeList = new ArrayList<>();
 		
